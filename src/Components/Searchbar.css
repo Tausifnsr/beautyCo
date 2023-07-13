@@ -1,0 +1,70 @@
+
+.searchSection {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.Searchbar{
+    height: 30px;
+    width: 200px;
+    margin-bottom: 20px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #888;
+}
+
+.btn2{
+    height: 30px;
+    width: 80px;
+    outline: none;
+    color: #fff;
+    background-color: #000;
+}
+
+.findUs{
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+
+
+
+.dropdown {
+    display: inline-block; 
+    position: relative;
+  }
+
+  .dropdown-options {
+    display: none;
+    position: absolute;
+    width: 200px;
+    text-align: left;
+    overflow: auto;
+    background-color: #fff;
+    padding: 20px;
+    z-index: 10;
+  }
+
+  .dropdown-options ul li{
+    margin: 5px;
+  }
+
+  .dropdown-options ul li a{
+    width: 100%;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 10px;
+    border-bottom: 2px solid #eee;
+  }
+
+  .dropdown-options ul li a:hover{
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .dropdown:hover .dropdown-options {
+    display: block;
+  }

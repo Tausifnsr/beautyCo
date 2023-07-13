@@ -1,0 +1,43 @@
+.welcomeSection{
+    height: 90vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.welcomeSection .leftSection{
+    text-align: left;
+}
+
+.welcomeSection .leftSection .heading{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: #666;
+}
+
+.btn3{
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: none;
+    width: 180px;
+    height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid #AEB6BF;
+    cursor: pointer;
+}
+
+.btn3 a{
+    text-decoration: none;
+    color: #000;
+}
+
+.btn3:hover{
+    border: none;
+    background-color: #000;
+    color: #fff;
+}
